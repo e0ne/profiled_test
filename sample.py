@@ -3,7 +3,7 @@ import unittest
 from profiled_test import ProfiledTest
 
 
-class SampleTest(ProfiledTest, unittest.TestCase): #, ProfiledTest):
+class SampleTest(ProfiledTest, unittest.TestCase):
     def test_sample(self):
         self.assertTrue(True)
 
